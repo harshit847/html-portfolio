@@ -1,1 +1,70 @@
-# html-portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Rai PortFolio</title>
+    <link rel="stylesheet" href="portfolio.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icons/user">
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icons/info">
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icons/picture">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Harshit's Portfolio</div>
+            <div class="right">
+                <ul><li><a href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                    <li><a href=""><i class="fa fa-user-circle-o" aria-hidden="true"></i>My Profile</a></li>
+                    <li><a href=""><i class="fa fa-info" aria-hidden="true">&nbsp;</i>About Me</a></li>
+                    <li><a href=""><i class="fa fa-image" aria-hidden="true"></i>Photos</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hello everyone my name is <span class="name">Harshit Rai</span> and I am passionate in web development.  <span id="element"></span></div>
+            <div class="rightSection"><img src="Front-end-Development-removebg-preview.png" alt></div>
+            
+        </section>
+        <hr class="lime"><br><br>
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>My Experience</h1>
+        <br><br>
+        <p>Until know I gained some skills of web development. I have summarised the HTML and CSS with some quick learnings and is currently working on making some of clone projects and websites. With these projects alongside I have started to work on the language JavaScript and will involve the js libraries in our upcoming projects. </p>
+        <div class="only">
+            <center><img src="heko-removebg-preview.png"></center>
+          </div>   
+          <h3>
+            <center>Follow us on-</center>
+          </h3><br>
+    
+      <div class="social">
+        <a href="#" class="fa fa-twitter"></a>  
+        <a href="#" class="fa fa-linkedin"></a>  
+        <a href="#" class="fa fa-instagram"></a>  
+        <a href="#" class="fa fa-google"></a>  
+      </div>
+    </section> 
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'B.tech Student'],
+          typeSpeed: 50,
+        });
+      </script>
+
+
+
+</body>
+</html>
